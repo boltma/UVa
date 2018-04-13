@@ -1,4 +1,4 @@
-/*ע�Ȿ���п�ʼʱ�Խ��첻�䣡*/
+﻿/*注意本题中开始时对将红不输！*/
 
 #include <math.h>
 #include <stdio.h>

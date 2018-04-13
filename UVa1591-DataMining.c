@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 //#define LOCAL
 long long n, sp, sq, k, mink;
 int main()
@@ -15,7 +15,7 @@ int main()
 		{
 			for (b = 0; b < 32; b++)
 			{
-				k = ( ( (n - 1) * sp + ( (n - 1) * sp << a)) >> b) + sq; //ÈİÒ×ÑéÖ¤Ö»ÒªÂú×ã¸ÃÊ½±ã²»»áÖØµş
+				k = ( ( (n - 1) * sp + ( (n - 1) * sp << a)) >> b) + sq; //å®¹æ˜“éªŒè¯åªè¦æ»¡è¶³è¯¥å¼ä¾¿ä¸ä¼šé‡å 
 				if (k < n * sq)
 					break;
 				else
