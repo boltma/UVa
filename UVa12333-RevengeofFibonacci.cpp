@@ -64,6 +64,11 @@ void add(string &a, string &b)
 	}
 	if (k == 1)
 		a.push_back('1');
+	if (b.length() > 50)
+	{
+		a = a.substr(a.size() - 50);
+		b = b.substr(b.size() - 50);
+	}
 	return;
 }
 
